@@ -286,3 +286,17 @@ html {
 #main-navbar4 ul li a:hover {
   background-color: #000;
 }
+#wrapper-map {
+  width: 850px;
+  height: 600px;
+  background-color: #5ac6c6;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#canvas {
+  width: 700px;
+  height: 500px;
+  background-color: #ccc;
+  margin: 50px auto;
+}
