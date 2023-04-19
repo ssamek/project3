@@ -26,8 +26,8 @@ function init() {
     content: contentString,
 	maxWidth: 250,
   });
-  google.maps.event.addListener(marker, 'mouseover', function() {
+google.maps.event.addListener(marker, 'mouseover', function() {
     infowindow.open(myMap, marker);
   });
   
-  google.maps.event.addDomListener(window, 'load', init);
+google.maps.event.addDomListener(window, 'load', init);
