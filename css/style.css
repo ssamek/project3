@@ -249,3 +249,40 @@ html {
   clear: both;
   display: table;
 }
+/* Page 4
+*/
+#main-navbar4 {
+  background-color: #40b5bc;
+  overflow: hidden;
+  color: #ffff;
+}
+#navbar-container4 {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+#main-navbar4 ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar4 ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#main-navbar4 ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#main-navbar4 ul li a:hover {
+  background-color: #000;
+}
