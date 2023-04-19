@@ -1,5 +1,5 @@
 function init() {
-  //alert('it works');
+  alert('it works');
   var el = document.getElementById('canvas');
   var myLocation = new google.maps.LatLng(52.3567415,4.8080992);
   var mapOptions = {
@@ -9,6 +9,7 @@ function init() {
 	mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM_CENTER
     }
+  }
   };
   
   var myMap = new google.maps.Map(el, mapOptions);
