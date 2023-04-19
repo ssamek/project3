@@ -1,7 +1,7 @@
 function init() {
   //alert('it works');
   var el = document.getElementById('canvas');
-  var myLocation = new google.maps.LatLng(-36.8593557,174.3764728);
+  var myLocation = new google.maps.LatLng(52.3567415,4.8080992);
   var mapOptions = {
     center: myLocation,
 	zoom: 12,
