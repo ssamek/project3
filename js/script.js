@@ -11,4 +11,16 @@ function init() {
     }
   };
   
+  var myMap = new google.maps.Map(el, mapOptions);
+  
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(52.354454,4.7535836),
+    map: myMap,
+    animation: google.maps.Animation.BOUNCE,
+	icon: 'images/flag.png'
+  });
+  google.maps.event.addListener(marker, 'mouseover', function() {
+    infowindow.open(myMap, marker);
+  });
+  
   google.maps.event.addDomListener(window, 'load', init);
