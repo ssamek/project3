@@ -32,3 +32,5 @@ google.maps.event.addListener(marker, 'mouseover', function() {
   });
   
 google.maps.event.addDomListener(window, 'load', init);
+
+window.init = init;
