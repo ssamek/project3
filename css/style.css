@@ -79,6 +79,169 @@ h1 {
 html {
 	width: 100%;
 }
+@media screen and (max-width: 500px) {
+	h1 {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#body1 {
+	background-color: #fce1e4;
+	color: #000;
+	border-color: #d4afb9;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+}
+#main-navbar {
+  background-color: #d4afb9;
+  overflow: hidden;
+  color: #ffff;
+}
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+#main-navbar ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+#edu {
+	border-style: outset;
+	border-color: #d4afb9;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+	
+}
+#edu ul li  {
+	list-style-type: none;
+}
+#skills {
+	border-style: outset;
+	border-color: #d4afb9;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+}
+#skills ul li  {
+	list-style-type: none;
+}
+#awards {
+	border-style: outset;
+	border-color: #d4afb9;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+}
+#awards ul li  {
+	list-style-type: none;
+}
+html {
+	width: 100%;
+}
+}
+@media screen and (min-width: 500px) {
+		h1 {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#body1 {
+	background-color: #fce1e4;
+	color: #000;
+	border-color: #d4afb9;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+}
+#main-navbar {
+  background-color: #d4afb9;
+  overflow: hidden;
+  color: #ffff;
+}
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+#main-navbar ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+#edu {
+	border-style: outset;
+	border-color: #d4afb9;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+	
+}
+#edu ul li  {
+	list-style-type: none;
+}
+#skills {
+	border-style: outset;
+	border-color: #d4afb9;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+}
+#skills ul li  {
+	list-style-type: none;
+}
+#awards {
+	border-style: outset;
+	border-color: #d4afb9;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+}
+#awards ul li  {
+	list-style-type: none;
+}
+html {
+	width: 100%;
+}
+}
+	
 /* page 2 css
 */
 #body2 {
