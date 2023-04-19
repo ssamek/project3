@@ -10,3 +10,5 @@ function init() {
       position: google.maps.ControlPosition.BOTTOM_CENTER
     }
   };
+  
+  google.maps.event.addDomListener(window, 'load', init);
