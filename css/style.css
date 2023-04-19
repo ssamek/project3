@@ -1,0 +1,251 @@
+/* page 1 css 
+*/
+h1 {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#body1 {
+	background-color: #fce1e4;
+	color: #000;
+	border-color: #d4afb9;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+}
+#main-navbar {
+  background-color: #d4afb9;
+  overflow: hidden;
+  color: #ffff;
+}
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+#main-navbar ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+#edu {
+	border-style: outset;
+	border-color: #d4afb9;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+	
+}
+#edu ul li  {
+	list-style-type: none;
+}
+#skills {
+	border-style: outset;
+	border-color: #d4afb9;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+}
+#skills ul li  {
+	list-style-type: none;
+}
+#awards {
+	border-style: outset;
+	border-color: #d4afb9;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+}
+#awards ul li  {
+	list-style-type: none;
+}
+html {
+	width: 100%;
+}
+/* page 2 css
+*/
+#body2 {
+	background-color: #d2fdbb;
+	color: #000;
+}
+#main-navbar2 {
+  background-color: #a6eca8;
+  overflow: hidden;
+  color: #000;
+}
+#navbar-container2 {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+#main-navbar2 ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar2 ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#main-navbar2 ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#main-navbar2 ul li a:hover {
+  background-color: #000;
+}
+#Qinfo {
+	border-style: outset;
+	border-color: #a6eca8;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+}
+#Qinfo ul li  {
+	list-style-type: none;
+}
+#Qfavs {
+	border-style: outset;
+	border-color: #a6eca8;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+}
+.musicimg {
+	border-style: outset;
+	border-color: #a6eca8;
+	border-radius: 30px;
+	border-width: 10px:
+}
+audio {
+	border-style: outset;
+	border-color: #a6eca8;
+	border-radius: 30px;
+	align-items: center;
+	border-width: 5px;
+}
+#Jinfo {
+	border-style: outset;
+	border-color: #a6eca8;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+}
+#Jinfo ul li {
+	list-style-type: none;
+}
+#Jfavs {
+	border-style: outset;
+	border-color: #a6eca8;
+	font-family: "FreeMono", monospace;
+	text-align: center;
+	margin:10px;
+}
+/* page 3 css
+*/
+#body3 {
+	background-color: #d9c4ec;
+	color: #000;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+#main-navbar3 {
+  background-color: #bea9df;
+  overflow: hidden;
+  color: #ffff;
+}
+#navbar-container3 {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+#main-navbar3 ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar3 ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#main-navbar3 ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#main-navbar3 ul li a:hover {
+  background-color: #000;
+}
+html {
+	width: 100%;
+	
+}
+#art {
+	border-style: outset;
+	border-color: #bea9df;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+	margin:10px;
+}
+#photo {
+	border-style: outset;
+	border-color: #bea9df;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+	margin:10px;
+}
+#games {
+	border-style: outset;
+	border-color: #bea9df;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+	margin:10px;
+}
+#title3 {
+	margin:10px;
+}
+.imgs{
+	float: left;
+	width: auto;
+	height: auto;
+	padding-left:5px; 
+	border-radius: 30px;
+}
+#row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
