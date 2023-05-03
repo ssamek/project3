@@ -1,46 +1,9 @@
-/*let map;
-function init() {
-  //alert('it works');
-  var el = document.getElementById('canvas');
-  var myLocation = new google.maps.LatLng(52.3567415,4.8080992);
-  var mapOptions = {
-    center: myLocation,
-	zoom: 12,
-	mapTypeId: google.maps.MapTypeId.SATELLITE,
-	mapTypeControlOptions: {
-      position: google.maps.ControlPosition.BOTTOM_CENTER
-    }
-  }
-  };
-  
- /* var myMap = new google.maps.Map(el, mapOptions);
-  
-  var marker = new google.maps.Marker({
-    position: new google.maps.LatLng(52.354454,4.7535836),
-    map: myMap,
-    animation: google.maps.Animation.BOUNCE,
-	icon: 'images/flag.png'
-  });
-  
- var contentString = '<h1>Muiderslot</h1><p>Muiden Castle is currently a national museum. The inside of the castle, its rooms and kitchens, was restored to look like they did in the 17th century and several of the rooms now house a collection of arms and armour.</p>';
-  
-  var infowindow = new google.maps.InfoWindow({
-    content: contentString,
-	maxWidth: 250,
-  });
-google.maps.event.addListener(marker, 'mouseover', function() {
-    infowindow.open(myMap, marker);
-  });
-  */
-//google.maps.event.addDomListener(window, 'load', init);
-//init();
-
 // Initialize and add the map
 let map;
 
 async function initMap() {
   // The location of Sydney
-  const position = { lat: -33.8469759, lng: 150.3715249 };
+  const position = { lat: -33.8519734, lng: 150.9037178 };
   // Request needed libraries.
   //@ts-ignore
   const { Map } = await google.maps.importLibrary("maps");
@@ -48,17 +11,61 @@ async function initMap() {
 
   // The map, centered at Sydney
   map = new Map(document.getElementById("canvas"), {
-    zoom: 4,
+    zoom: 8,
     center: position,
     mapId: "MAP_ID",
   });
 
   // The marker, positioned at Sydney
-  new google.maps.Marker({
+  const marker = new google.maps.Marker({
     position: position,
 	map,
     title: "Sydney",
   });
+  const infowindow = new google.maps.InfoWindow({
+	  content: "<p><b>Sydney</b></p><p>Capital of New South Wales and one of the largest cities in Australia. Sydney is best know for its harbourfront Sydney Opera House.</p>",
+    ariaLabel: "Sydney",
+  });
+  marker.addListener("click", () => {
+    infowindow.open({
+      anchor: marker,
+      map,
+    });
+});
+// The marker, positioned at Bondi Beach
+  const marker2 = new google.maps.Marker({
+    position: {lat: -33.8909609, lng: 151.2532638 },
+	map,
+    title: "Bondi Beach",
+  });
+  const infowindow2 = new google.maps.InfoWindow({
+	  content: "<p><b>Bondi Beach</b></p>",
+    ariaLabel: "Beach",
+  });
+  marker2.addListener("click", () => {
+    infowindow2.open({
+      anchor: marker2,
+      map,
+	  
+    });
+});
+// The marker, positioned at Sydney Opera House
+  const marker3 = new google.maps.Marker({
+    position: {lat: -33.8703754, lng: 151.2349183 },
+	map,
+    title: "Opera House",
+	icon: "images/flag.png",
+  });
+  const infowindow3 = new google.maps.InfoWindow({
+	  content: "<p><b>Sydney Opera House</b></p>",
+    ariaLabel: "Sydney Opera House",
+  });
+  marker3.addListener("click", () => {
+    infowindow3.open({
+      anchor: marker3,
+      map,
+	  
+    });
+});
 }
-
 initMap();
