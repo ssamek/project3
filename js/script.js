@@ -39,24 +39,24 @@ google.maps.event.addListener(marker, 'mouseover', function() {
 let map;
 
 async function initMap() {
-  // The location of Uluru
+  // The location of Sydney
   const position = { lat: -33.8469759, lng: 150.3715249 };
   // Request needed libraries.
   //@ts-ignore
   const { Map } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerView } = await google.maps.importLibrary("marker");
 
-  // The map, centered at Uluru
+  // The map, centered at Sydney
   map = new Map(document.getElementById("canvas"), {
     zoom: 4,
     center: position,
     mapId: "MAP_ID",
   });
 
-  // The marker, positioned at Uluru
-  const marker = new AdvancedMarkerView({
-    map: map,
+  // The marker, positioned at Sydney
+  new google.maps.Marker({
     position: position,
+	map,
     title: "Sydney",
   });
 }
