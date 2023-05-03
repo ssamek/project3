@@ -1,3 +1,4 @@
+let map;
 function init() {
   //alert('it works');
   var el = document.getElementById('canvas');
@@ -31,4 +32,5 @@ google.maps.event.addListener(marker, 'mouseover', function() {
     infowindow.open(myMap, marker);
   });
   */
-google.maps.event.addDomListener(window, 'load', init);
+//google.maps.event.addDomListener(window, 'load', init);
+init();
